@@ -1,0 +1,43 @@
+name: GaiaCore
+version: 1.0
+main: com.firefliesalco.www.GaiaCore
+author: firefliesalco
+api-version: 1.13
+depend: [WorldGuard,WorldEdit]
+commands:
+  balance:
+    description: Balance
+    usage: /balance
+    aliases: [bal, money]
+  rankup:
+    description: Rankup
+    usage: /rankup
+    aliases: [ru]
+  prestige:
+    description: Prestige
+    usage: /prestige
+  master:
+    description: Master
+    usage: /master
+  ascend:
+    description: Ascend
+    usage: /ascend
+  maxrankup:
+    description: Maxrankup
+    usage: /maxrankup
+    aliases: [mru, maxru, mrankup]
+  skills:
+    description: Skills
+    usage: /skills
+    aliases: [skilltree, skill]
+  upgrade:
+    description: Enchants
+    usage: /enchant
+    aliases: [enchant, teshop, enchants]
+  admin:
+    description: Admin
+    usage: /admin
+  pickaxe:
+    description: Pickaxe
+    usage: /pickaxe
+    aliases: [pick]
